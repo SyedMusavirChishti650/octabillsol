@@ -1,0 +1,948 @@
+
+/* Package Style 1
+-------------------------------------------------------------------- */
+
+table.at-intenet-package{border: 0;}
+.at-intenet-package {
+	border: 0;
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.at-intenet-package thead th {
+	text-align: center;
+	font-size: 12px;
+	font-weight: 400;
+	padding: 0 20px;
+	border-left: 1px solid #dddddd;
+}
+.at-intenet-package thead th:first-child { border: 0;}
+.at-intenet-package thead th.at-int-intro { padding: 20px 0;}
+.at-int-intro span { font-size: 2em; line-height:1; vertical-align: middle; font-weight: bold;}
+#pack tbody tr:nth-child(even) {
+    background-color: #e4ebef;
+}
+#pack tbody tr:nth-child(odd) {
+   background-color:#ffffff;
+}
+
+.at-intenet-package tbody td {
+	border:1px solid #dddddd;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 15px;
+	vertical-align: top;
+}
+.at-int-speedname {width: 24%;}
+.at-int-dl1, .at-int-dl2, .at-int-dl3 {width: 11%;}
+.at-int-price {width: 24%;}
+.at-int-check {width: 19%;}
+
+.at-int-speedname>h2 {
+	font-size: 18px !important;
+	margin: 0 0 10px 0 !important;
+	color: #323232;
+	font-weight:700;
+}
+.at-int-speedname>h2>span { font-weight:400; }
+.at-int-speedname>ul { margin: 0 0 5px 0; color:#777; padding: 0;}
+.at-int-speedname>ul>li { font-size: 12px; margin: 0 0 0 15px}
+
+.at-int-dl1, .at-int-dl2, .at-int-dl3, .at-int-check {
+    text-align: center;
+    vertical-align: middle !important;
+}
+.at-int-dl1>h2, .at-int-dl2>h2, .at-int-dl3>h2, .at-int-price>h2 {
+	font-size: 36px !important;
+	line-height: 1 !important;
+	font-weight: 600;
+	color: #0077DB;
+	margin: auto !important;
+}
+.at-int-dl1>h2>span, .at-int-dl2>h2>span, .at-int-dl3>h2>span {
+	font-size: 60%;
+	font-weight: 300;margin-left: 5px;
+}
+.at-int-dl1 .todownload, .at-int-dl2 .todownload, .at-int-dl3 .todownload {
+	font-size: 12px;
+	color: #777;
+}
+.at-int-price { vertical-align: middle !important;}
+.at-int-price>h2 { color: #323232; margin-bottom: 10px; }
+.at-int-price>h2>span {font-weight: 400; font-size: 30px;}
+.at-int-price>h2>span.per-month {font-size: 16px; color: #777; }
+.at-int-price {color: #777; font-size:12px !important; }
+.at-int-price>span.check-info {display: block }
+
+/* Package Style 2
+-------------------------------------------------------------------- */
+
+.at-IntPlan-wrapper {
+	position: relative;
+}
+
+.at-IntPlan-Item:after, .at-IntPlan-Item:before {
+    clear: both;
+    display: block;
+    content: '';
+}
+.at-IntPlan-Item {
+	background: #fff;
+	border: 2px Solid #0077DB;
+	width: 100%;
+	margin-bottom: 30px;
+	box-sizing: content-box;
+}
+
+.at-IntPlan .at-IntPlan-Item:last-child { margin-bottom: 0; }
+
+.at-IntPlan-Item .Plan-Item {
+	width: 77%;
+	padding: 40px 0;
+	float: left;
+}
+.at-IntPlan-Item .Plan-Price {
+	width: 23%;
+	float: right;
+	background: #0077DB;
+  	color: #fff;
+  	text-align: center;
+}
+.at-IntPlan-Item .Plan-Item .items {
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  background: transparent;
+	text-align:center;
+}
+.at-IntPlan-Item .Plan-Item .items ul { list-style: none; }
+.at-IntPlan-Item .Plan-Item .items ul li { margin:0; }
+
+.Plan-Item .items .Plan-Title {
+	width: 30%;
+	clear: right;
+	float: left;
+	text-align:left;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.Plan-Title ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	color: #222;
+	font-size:14px;
+	font-weight: 600;
+}
+
+.items .Plan-Title>h2 {
+	font-size: 28px;
+	line-height: normal;
+	font-weight: 600;
+	color: #233141;
+	margin: 0 0 12px 0
+}
+.items .Plan-Title p {
+	font-size: 14px;
+	font-weight: 900;
+	margin: 0;
+	color: #222;
+}
+
+.Plan-Item .items .Plan-Service {
+  width: 17%;
+  clear: right;
+  float: left;
+  margin-left: 0;
+  margin-right: 0%;
+}
+.Plan-Service .speed {
+	font-size:15px;
+	color: #222;
+	text-align: center;
+	font-weight: 700;
+	padding: 15px 0;
+	border-left:1px dotted #dddddd;
+	border-right: 1px dotted #dddddd;
+}
+.Plan-Service .speed span {
+	display: block;
+	font-size: 45px;
+	font-weight: 400;
+	line-height: 1.4;
+	color: #0077DB;
+}
+
+.Plan-Item .items .Plan-Features {
+    width: 50%;
+    clear: right;
+    float: left;
+    margin-left: 0;
+    margin-right: 0%;
+}
+.items .Plan-Features>h3 {
+	margin:0 0 10px 0;
+	font-size: 14px;
+	letter-spacing: 0.04em;
+	color: #222;
+}
+.Plan-Features .features-list {
+	font-size: 12px;
+	color: #777;
+	display: inline-block;
+	width: 25%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.features-list .sep-time {
+	font-size: 32px;
+	font-weight: 900;
+	color: #0077DB;
+	display: block;
+	line-height: 1.4;
+}
+.features-list .sep-time>span {
+	font-size:60%;
+	font-weight: 300;
+	margin-left: 5px;
+}
+
+.Plan-Price .price-content {
+	position: relative;
+	padding: 40px 20px 40px 24px;
+  margin-right: 0;
+}
+
+.price-content .price-row {
+	font-weight: 900;
+}
+.price-content .price-row sup {
+	font-size: 22px;
+  font-size: 1.375rem;
+  top: -16px;
+	line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.price-content .price-row span {
+	font-size: 2.25rem;
+}
+.price-content .check-info {
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 5px;
+}
+.price-content .extra-txt {
+	font-size: 12px;
+}
+.price-content .extra-txt span {
+	display: block;
+}
+.price-content .check-aval {
+	margin-top: 15px;
+}
+.price-content .check-aval a{color: #ffffff;}
+.price-content .check-aval a:hover{color: #0077DB; text-decoration: none; }
+
+.Plan-Price .price-content::after {
+content: "";
+    position: absolute;
+    top: 50%;
+    left: -2px;
+    margin-left: 0;
+    margin-top: -10px;
+	transform: rotate(270deg);
+    border-style: solid;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #fff;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #fff;
+}
+
+/* Package Style 3
+-------------------------------------------------------------------- */
+
+.s3 .at-IntPlan {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-align: stretch;
+	-ms-flex-align: stretch;
+	align-items: stretch;
+	margin: 0 -15px;
+}
+
+.s3 .at-IntPlan-Item {
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	-ms-flex-preferred-size: 220px;
+	flex-basis: 220px;
+	margin: 0 15px 30px 15px;
+}
+
+.s3 .at-IntPlan-Item .Plan-Item { width: auto; float: none; padding: 40px 0 0 0; }
+.s3 .at-IntPlan-Item .Plan-Price { width: 100%; float: none; }
+.s3 .Plan-Price .price-content::after { display: none; }
+
+.s3 .Plan-Item .items .Plan-Title { width: auto; float: none; text-align: center; padding: 0; }
+.s3 .Plan-Item .items .Plan-Service {
+	width: auto;
+	float: none;
+	margin: 30px 0 0 0;
+	background-color: rgba(0,0,0,0.05);
+}
+.s3 .Plan-Item .items .Plan-Features { width: auto; float: none; margin-top:30px;  }
+
+.s3 .Plan-Features .features-list {
+	width: auto;
+	margin:0;
+	display: block;	
+	padding: 10px;
+	border-bottom:1px solid rgba(0,0,0,0.1);
+}
+.s3 .Plan-Service .speed span { font-weight: 900; line-height: 1; }
+.s3 .Plan-Features .features-list:last-child { border-bottom: 0; }
+.s3 .features-list .sep-time { font-size: 16px; line-height: normal; padding: 0 5px; }
+.s3 .features-list .sep-time>span { font-size: inherit; margin-left: 3px; }
+
+.s3 .price-content .check-info,
+.s3 .price-content .extra-txt,
+.s3 .price-content .check-aval,
+.s3 .Plan-Price .price-content,
+.s3 .price-content .price-row { float: none; width: 100%; }
+
+/*  Form
+-------------------------------------------------------------------- */
+select,
+textarea,
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+	display: block;
+	color:  #5f5f5f;
+	box-sizing: border-box;
+	padding: 8px;
+	background-color: #f6f6f6;
+	border: 1px solid #dddddd;
+	border-color: #cccccc #E7E7E7 #E7E7E7 #cccccc;
+	overflow: hidden;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	outline: 0;
+}
+
+select:focus,
+textarea:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+	-webkit-transition: all 200ms ease-in 0s;
+	-moz-transition: all 200ms ease-in 0s;
+	transition: all 200ms ease-in 0s;
+}
+.availabilityform select,
+.availabilityform text,
+.availabilityform textarea,
+.availabilityform .isppro_form_field{
+	width: 100%;
+	font-weight: 300;
+}
+.availabilityform label {
+	display: block;
+	text-align: left;
+	line-height: 32px;
+	font-weight: 300;
+}
+.availabilityform input[type=radio],
+.availabilityform input[type=checkbox]{
+	box-shadow: none;
+	width: auto;
+}
+.availabilityform textarea{
+	width: 100%;
+	min-height: 80px;
+}
+.availabilityform  select{
+	box-sizing: border-box;
+	padding: 10px 15px;
+	width: 100%;
+	margin-bottom: 20px;
+	-webkit-appearance: none;
+}
+.availabilityform submit{
+	background: #3ab54a none repeat scroll 0 0;
+	    border-left: 0 none;
+	    border-radius: 6px;
+	    border-right: 0 none;
+	    border-top: 0 none;
+	    color: #ffffff;
+	    cursor: pointer;
+	    font-size: 0.8125rem;
+	    line-height: normal;
+	    margin: 0 15px 20px 0;
+	    outline: 0 none;
+	    padding: 10px 20px;
+	    transition: background-color 0.2s ease 0s;
+}
+.at-Int-checkaval-wrapper {
+	position: relative;
+	clear: both;
+	display: flex;
+	align-items: stretch;
+}
+.at-checkaval__fetch {
+	background: #0077DB;
+	color: #fff;
+	text-align: left;
+	padding: 50px 60px;
+	width: 30%;
+}
+.at-checkaval__data {
+    margin-bottom: 40px;
+}
+.at-checkaval__data h2 {
+	font-size: 30px !important;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: -0.04em;
+	line-height: 36px !important;
+	margin:0 0 10px !important;
+}
+.at-checkaval__data h5 {
+	font-size: 50px !important;
+	margin:0 0 5px !important;
+	color: #fff;
+	font-weight: 100;
+	letter-spacing: -0.04em;
+	line-height: 1 !important;
+}
+.at-checkaval__data h5 sup {
+	font-size: 16px;
+	color: #fff;
+    top: -20px;
+    line-height: 0;
+	margin-right: 8px;
+    position: relative;
+    vertical-align: baseline;
+}
+.at-checkaval__data p {
+	font-size:14px;
+	letter-spacing: 2px;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+.at-checkaval__fetch ul {
+	margin: 0;
+	padding: 0;
+}
+.at-checkaval__fetch ul li {
+	list-style: none;
+	margin: 0;
+}
+.at-checkaval__form { margin: 0; width: 66%; margin-left: 4%; }
+.at-checkaval__form h2 { margin: 0 0 20px; font-weight: 600; }
+
+.at-checkaval__form .at-checkaval__inputs {
+	margin: 0 0 20px 0;
+	padding: 0;
+	position: relative;
+	clear: left;
+}
+.at-checkaval__inputs label {
+	margin: 0 0 10px;
+	display: block;
+	font-weight: bold;
+	line-height: 13px;
+	font-size: 13px;
+	color:#666;
+	display: block;
+}
+.at-checkaval__inputs label.required:after {
+	content: '*';
+	display: inline;
+	margin-left: 0.5em;
+	font-size: 80%;
+	color: #da6f5b;
+}
+.at-checkaval__inputs input[type="text"], .at-checkaval__inputs input[type="password"], .at-checkaval__inputs input[type="number"], .at-checkaval__inputs input[type="search"], .at-checkaval__inputs input[type="email"], .at-checkaval__inputs input[type="url"], .at-checkaval__inputs textarea, .at-checkaval__inputs select {
+	width: 100%;
+	padding: 1.347em 1.76em;
+	background: #F4F6F9;
+	font-size: 13px;
+  	line-height: 1.2;
+	box-sizing: border-box;
+	border: 2px solid #F4F6F9;
+	margin: 0;
+}
+.isppro_form_reqsubmit,
+.at-checkaval__inputs input[type="button"] {
+    padding: 1.2em 2.5em;
+    border-radius: 0;
+    font-weight: 600;
+	background-color: #0077DB;
+	background-image: none;
+	color: #fff;
+}
+
+.isppro_form_reqsubmit:hover,
+.at-checkaval__inputs input[type="button"]:hover {
+	background-image: none;
+	background-color: #222;
+	color: #fff;
+}
+.at-checkaval__inputs input[type="button"]:disabled {
+	background-image: none;
+	opacity: 0.5;
+}
+
+.at-checkaval__inputs input[type="text"]:focus,
+.at-checkaval__inputs input[type="password"]:focus,
+.at-checkaval__inputs input[type="email"]:focus,
+.at-checkaval__inputs input[type="number"]:focus,
+.at-checkaval__inputs input[type="tel"]:focus,
+.at-checkaval__inputs input[type="search"]:focus,
+.at-checkaval__inputs textarea:focus {background-color: #fff; color: #555; border-color:#0077DB;}
+
+.at-checkaval__inputs.mid50 {
+	width: 48%;
+	float: left;
+	clear: none;
+	margin-right: 4%;
+}
+.at-checkaval__inputs.midend {
+	margin-right: 0 !important;;
+}
+.at-checkaval__inputs fieldset {
+	border: 0;
+	padding: 0
+}
+.at-checkaval__inputs.check-location label.bold {
+	margin: 0 0 10px;
+	font-weight: bold;
+	line-height: 13px;
+	font-size: 13px;
+	color:#666;
+	margin: 0;
+}
+.at-checkaval__inputs.check-location label {
+	font-weight: 400;
+	display: inline-block;
+	margin: 0;
+}
+.at-checkaval__inputs fieldset legend {
+	margin-bottom: 15px;
+}
+.isppro_name.isppro_error,
+.isppro_radio.isppro_error,
+.isppro_email.isppro_error,
+.isppro_phoneno.isppro_error,
+.isppro_city.isppro_error,
+.isppro_zipcode.isppro_error { 
+	border: 1px solid red !important;
+}
+.at-checkaval__form img#loader {
+    display: none;
+}
+#zipcode_check_status,
+#isppro_mail_success {
+	background-color: #f6f6f6;
+    border-color: #dddddd;
+    margin: 20px 0;
+    position: relative;
+    text-align: center;
+}
+#zipcode_check_status .success,
+#isppro_mail_success
+{
+	color: #ffffff;
+    background-color: #26A65B;
+}
+#isppro_booking_success.success {
+	color: #ffffff;
+    background-color: #26A65B;
+	padding: 7px 20px;
+    margin-top: 20px;
+}
+
+#zipcode_check_status .error{
+	color: #ffffff;
+    background-color: #F22613;
+}
+.isppro_availabilty {
+	display: none;
+	 text-align: left;
+	 font-size: 14px;
+	 font-weight: 600;
+	 margin-bottom: 40px;
+}
+.isppro_availabilty .available {
+    padding: 1px 6px;
+    background: #4CAF50;
+    color: white;
+    border-radius: 2px;
+    margin: 0;
+}
+.isppro_availabilty .not-available {
+	padding: 1px 6px;
+	background: #F64744;
+	color: white;
+	border-radius: 2px;
+	margin: 0;
+}
+.isppro_availabilty_form_layout{
+	display:none;
+	margin:0 auto;
+}
+#isppro_mail_success{
+	display:none;
+}
+.isppro_availabilty_form { display:none; padding:50px 60px; background-color: #eee;}
+.isppro_availabilty_form .text { line-height:1.7; font-weight: 600; font-size: 14px; }
+.isppro_availabilty_form span { margin-left: 8px; font-weight: 400; }
+.isppro_availabilty_text { margin-bottom: 30px; margin-top: 50px}
+.isppro_booking_success { display: none; }
+
+.at-int-btn {
+    padding: 10px 18px;
+    border-radius: 2px;
+    color: #ffffff;
+    text-decoration: none;
+	background: transparent;
+    transition: background 0.2s ease-in-out;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    border: 2px solid #fff;
+}
+.at-int-btn:hover {
+    background: #fff;
+    color: #0077db;
+    border: 2px solid #fff;
+	text-decoration: none;
+}
+
+.at-int-btn:visited {
+    color: #0077db;
+}
+
+.at-int-btn.dark-btn:visited {
+	background: #0077db;
+	color: #ffffff;
+}
+.at-int-btn.dark-btn {
+	background: #0077db;
+	color: #ffffff;
+	border:1px solid transparent;
+}
+.at-int-btn.dark-btn:hover {
+	background: transparent;
+	border: 1px solid #0077db;
+	color: #0077db;
+	text-decoration: none;
+}
+
+/* ==============================================================*/
+/* Responsive Internet Plan							             */
+/* ============================================================= */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+	/* Internet Pricing Plan 2 */
+	.at-intenet-package thead th h1{ font-size: 1.3em; }
+	.at-int-dl1>h2, .at-int-dl2>h2, .at-int-dl3>h2, .at-int-price>h2 { font-size: 32px; }
+	.at-int-dl1, .at-int-dl2, .at-int-dl3 { display: none;}
+	/* Internet Pricing Plan 2 */
+	.at-IntPlan-Item .Plan-Item { padding: 25px 0; width: 100%;	}
+	.at-IntPlan-Item .Plan-Price { width: 100%;	}
+	.Plan-Price .price-content {
+		padding: 10px 20px;
+		clear: right;
+		width: 100%;
+		float: right;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.price-content .price-row {
+		width: 50%;
+		clear: right;
+		float: left;
+		text-align: left;
+		margin-left: 0;
+		margin-right: 0%;
+	}
+	.price-content .price-row span { font-size: 1.6rem; }
+	.price-content .price-row sup {font-size: 1rem; }
+	.price-content .check-info, .price-content .extra-txt{
+		width: 50%;
+		clear: right;
+		float: left;
+		text-align: right;
+		padding: 6px 0 0 0;
+		margin: 0;
+	}
+	.price-content .extra-txt span {
+		margin-left: 8px;
+		padding-left: 10px;
+		display: inline-block;
+		border-left: 1px solid #fff;
+	}
+	.price-content .check-aval {
+		width: 100%;
+		clear: right;
+		float: left;
+		padding: 6px 0 0 0;
+		margin: 0 0 15px 0;
+	}
+	.Plan-Price .price-content:after {
+		border-left: 12px solid transparent;
+		border-right: 12px solid transparent;
+		border-top: 12px solid #fff;
+		top: 0;
+		left: 50%;
+		transform: rotate(360deg);
+		margin-top: 0;
+	}
+	.price-content .check-aval .at-int-btn { display: block; }
+	.Plan-Item .items .Plan-Title { width: 100%; }
+	.Plan-Item .items .Plan-Features, .Plan-Item .items .Plan-Service {display: none;}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	/* Internet Pricing Plan 2 */
+	.at-intenet-package thead th h1{ font-size: 1.3em; }
+	.at-int-dl1>h2, .at-int-dl2>h2, .at-int-dl3>h2, .at-int-price>h2 { font-size: 32px; }
+	.at-int-dl1, .at-int-dl2, .at-int-dl3 { display: none;}
+	/* Internet Pricing Plan 2 */
+	.at-IntPlan-Item .Plan-Item { padding: 25px 0; width: 100%;	}
+	.at-IntPlan-Item .Plan-Price { width: 100%;	}
+	.Plan-Price .price-content {
+		padding: 10px 20px;
+		clear: right;
+		width: 100%;
+		float: right;
+	}
+	.price-content .price-row {
+		width: 30%;
+		clear: right;
+		float: left;
+		text-align: left;
+		margin-left: 0;
+		margin-right: 0%;
+	}
+	.price-content .check-info, .price-content .extra-txt{
+		width: 70%;
+		clear: right;
+		float: left;
+		text-align: right;
+		padding: 6px 0 0 0;
+		margin: 0 0 15px 0;
+	}
+	.price-content .extra-txt span {
+		margin-left: 8px;
+		padding-left: 10px;
+		display: inline-block;
+		border-left: 1px solid #fff;
+	}
+	.price-content .check-aval {
+		width: 100%;
+		clear: right;
+		float: left;
+		margin-left: 0;
+		margin-right: 0;
+		padding: 6px 0 0 0;
+		margin-top: 0;
+	}
+	.Plan-Price .price-content:after {
+		border-left: 12px solid transparent;
+		border-right: 12px solid transparent;
+		border-top: 12px solid #fff;
+		top: 0;
+		left: 50%;
+		transform: rotate(360deg);
+		margin-top: 0;
+	}
+	.price-content .check-aval .at-int-btn { display: block; }
+	
+	.Plan-Item .items .Plan-Service {display : none;}
+	.Plan-Item .items .Plan-Title { width: 40%;}
+	.items .Plan-Title>h2 {font-size: 26px; }
+	.Plan-Item .items .Plan-Features { width: 60%; }
+	.features-list .sep-time{ font-size: 30px;}
+	.Plan-Features .features-list { width: 27%; margin-left: 3%; margin-right: 3%; }
+	/* Check Availability Form */
+	.at-checkaval__inputs.mid50 { width: 100%; margin-right: 0;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1999px) { }
+
+
+/* ===================================================== */
+/* #iPad (Landscape)									 */
+/* ===================================================== */
+
+@media only screen and (min-width : 960px) and (max-width : 1024px) {
+	/* Internet Pricing Plan 2 */
+	.at-intenet-package thead th h1{ font-size: 1.3em; }
+	.at-int-dl1>h2, .at-int-dl2>h2, .at-int-dl3>h2, .at-int-price>h2 { font-size: 32px; }
+	.at-int-dl1, .at-int-dl2, .at-int-dl3 { display: none;}
+	/* Internet Pricing Plan 2 */
+	.at-IntPlan-Item .Plan-Item { padding: 25px 0; width: 100%;	}
+	.at-IntPlan-Item .Plan-Price { width: 100%;	}
+	.Plan-Price .price-content {
+		padding: 10px 20px;
+		clear: right;
+		width: 100%;
+		float: right;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.price-content .price-row {
+		width: 30%;
+		clear: right;
+		float: left;
+		text-align: left;
+		margin-left: 0;
+		margin-right: 0%;
+	}
+	.price-content .check-info, .price-content .extra-txt{
+		width: 70%;
+		clear: right;
+		float: left;
+		text-align: right;
+		padding: 6px 0 0 0;
+		margin: 0;
+	}
+	.price-content .extra-txt span {
+		margin-left: 8px;
+		padding-left: 10px;
+		display: inline-block;
+		border-left: 1px solid #fff;
+	}
+	.price-content .check-aval {
+		width: 100%;
+		clear: right;
+		float: left;
+		padding: 6px 0 15px 0;
+	}
+	.Plan-Price .price-content:after {
+		border-left: 12px solid transparent;
+		border-right: 12px solid transparent;
+		border-top: 12px solid #fff;
+		top: 0;
+		left: 50%;
+		transform: rotate(360deg);
+		margin-top: 0;
+	}
+	.price-content .check-aval .at-int-btn { display: block; }
+	
+	/* Check Availability Form */
+	.at-checkaval__inputs.mid50 { width: 47.45%; }
+	.at-checkaval__fetch { width: 50%; }
+}
+
+/* ===================================================== */
+/* #iPad (Portrait)									 	 */
+/* ===================================================== */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	/* Internet Pricing Plan 2 */
+	.at-intenet-package thead th h1{ font-size: 1.3em; }
+	.at-int-dl1>h2, .at-int-dl2>h2, .at-int-dl3>h2, .at-int-price>h2 { font-size: 32px; }
+	.at-int-dl1, .at-int-dl2, .at-int-dl3 { display: none;}
+	/* Internet Pricing Plan 2 */
+	.at-IntPlan-Item .Plan-Item { padding: 25px 0; width: 100%;	}
+	.at-IntPlan-Item .Plan-Price { width: 100%;	}
+	.Plan-Price .price-content {
+		padding: 10px 20px;
+		clear: right;
+		width: 100%;
+		float: right;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.price-content .price-row {
+		width: 30%;
+		clear: right;
+		float: left;
+		text-align: left;
+		margin-left: 0;
+		margin-right: 0%;
+	}
+	.price-content .check-info, .price-content .extra-txt{
+		width: 70%;
+		clear: right;
+		float: left;
+		text-align: right;
+		padding: 6px 0 0 0;
+		margin: 0;
+	}
+	.price-content .extra-txt span {
+		margin-left: 8px;
+		padding-left: 10px;
+		display: inline-block;
+		border-left: 1px solid #fff;
+	}
+	.price-content .check-aval {
+		width: 100%;
+		clear: right;
+		float: left;
+		padding: 6px 0 15px 0;
+	}
+	.Plan-Price .price-content:after {
+		border-left: 12px solid transparent;
+		border-right: 12px solid transparent;
+		border-top: 12px solid #fff;
+		top: 0;
+		left: 50%;
+		transform: rotate(360deg);
+		margin-top: 0;
+	}
+	.price-content .check-aval .at-int-btn { display: block; }
+	
+	/* Check Availability Form */
+	.at-checkaval__inputs.mid50 { width: 100%; margin-right: 0; }
+	.at-checkaval__fetch { width: 50%; }
+
+}
+
+/* ===================================================== */
+/* #Mobile (Landscape)									 */
+/* ===================================================== */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+}
+
+/* ===================================================== */
+/* #Mobile (Portrait)									 */
+/* ===================================================== */
+
+@media only screen and (min-width: 240px) and (max-width: 479px) {
+	/* Check Availability Form */
+	.at-checkaval__inputs.mid50 { width: 100%; margin-right: 0; }
+	.at-checkaval__fetch {margin-bottom: 40px; }
+	.at-checkaval__fetch, .at-checkaval__form { width: 100%;  margin-left: 0;}	
+	.at-Int-checkaval-wrapper { display: block;}
+}
+#inifiniteLoader{  
+   display: none;
+   width: 100%;
+   padding: 50px;
+   margin: 0 0 20px;
+   background: #fff;
+   border: 2px dashed #ccc;
+   background: url("../ajax-loader.gif") no-repeat center center;
+   transition: all 0.1s ease;
+}
